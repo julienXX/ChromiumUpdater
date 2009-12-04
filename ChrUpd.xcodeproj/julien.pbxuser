@@ -49,6 +49,7 @@
 			F93511CF10C96FD1003EB679 /* PBXTextBookmark */ = F93511CF10C96FD1003EB679 /* PBXTextBookmark */;
 			F93511D110C98000003EB679 /* PBXTextBookmark */ = F93511D110C98000003EB679 /* PBXTextBookmark */;
 			F93511D210C98000003EB679 /* PBXTextBookmark */ = F93511D210C98000003EB679 /* PBXTextBookmark */;
+			F93511D710C980C4003EB679 /* PBXTextBookmark */ = F93511D710C980C4003EB679 /* PBXTextBookmark */;
 		};
 		sourceControlManager = F93510AB10C917F9003EB679 /* Source Control */;
 		userBuildSettings = {
@@ -119,9 +120,9 @@
 	};
 	F93510AD10C91943003EB679 /* Controller.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1013, 624}}";
-			sepNavSelRange = "{324, 0}";
-			sepNavVisRange = "{381, 871}";
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 611}}";
+			sepNavSelRange = "{142, 0}";
+			sepNavVisRange = "{361, 871}";
 		};
 	};
 	F93511C010C96F7A003EB679 /* PlistBookmark */ = {
@@ -150,7 +151,7 @@
 		fRef = F93510AD10C91943003EB679 /* Controller.rb */;
 		name = "Controller.rb: 33";
 		rLen = 0;
-		rLoc = 978;
+		rLoc = 958;
 		rType = 0;
 		vrLen = 950;
 		vrLoc = 180;
@@ -160,7 +161,7 @@
 		fRef = F93510AD10C91943003EB679 /* Controller.rb */;
 		name = "Controller.rb: 24";
 		rLen = 0;
-		rLoc = 570;
+		rLoc = 550;
 		rType = 0;
 		vrLen = 1047;
 		vrLoc = 180;
@@ -170,7 +171,7 @@
 		fRef = F93510AD10C91943003EB679 /* Controller.rb */;
 		name = "Controller.rb: 24";
 		rLen = 0;
-		rLoc = 570;
+		rLoc = 550;
 		rType = 0;
 		vrLen = 1047;
 		vrLoc = 180;
@@ -180,7 +181,7 @@
 		fRef = F93510AD10C91943003EB679 /* Controller.rb */;
 		name = "Controller.rb: 24";
 		rLen = 0;
-		rLoc = 570;
+		rLoc = 550;
 		rType = 0;
 		vrLen = 1038;
 		vrLoc = 180;
@@ -190,7 +191,7 @@
 		fRef = F93510AD10C91943003EB679 /* Controller.rb */;
 		name = "Controller.rb: 24";
 		rLen = 0;
-		rLoc = 570;
+		rLoc = 550;
 		rType = 0;
 		vrLen = 1047;
 		vrLoc = 180;
@@ -200,9 +201,19 @@
 		fRef = F93510AD10C91943003EB679 /* Controller.rb */;
 		name = "Controller.rb: 16";
 		rLen = 0;
-		rLoc = 324;
+		rLoc = 304;
 		rType = 0;
 		vrLen = 871;
 		vrLoc = 381;
+	};
+	F93511D710C980C4003EB679 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F93510AD10C91943003EB679 /* Controller.rb */;
+		name = "Controller.rb: 8";
+		rLen = 0;
+		rLoc = 142;
+		rType = 0;
+		vrLen = 871;
+		vrLoc = 361;
 	};
 }

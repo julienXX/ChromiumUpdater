@@ -5,7 +5,6 @@
 # Copyright 2009 MIKROS IMAGE. All rights reserved.
 
 require 'net/http'
-require 'fileutils'
 
 class Controller
 	attr_writer :text_view
