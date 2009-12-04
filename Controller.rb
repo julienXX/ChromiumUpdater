@@ -13,10 +13,12 @@ class Controller
 	
 	def awakeFromNib()
 		@text_view.insertText("Click the Update button to update Chromium.\n")
-		#@progress = NSProgressIndicator.new
 		@build_url = "build.chromium.org"
+		
+		# who am I ? :)
 		@whoami = %x(whoami).gsub(/\n/,'')
 		
+		# Get latest release number
 		Net::HTTP.start(@build_url) { |http|
 			@latest = http.get("/buildbot/snapshots/chromium-rel-mac/LATEST")
   	}

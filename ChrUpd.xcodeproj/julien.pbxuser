@@ -20,7 +20,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					602,
 					20,
 					48.16259765625,
 					43,
@@ -40,6 +40,16 @@
 			PBXPerProjectTemplateStateSaveDate = 281614308;
 			PBXWorkspaceStateSaveDate = 281614308;
 		};
+		perUserProjectItems = {
+			F93511C010C96F7A003EB679 /* PlistBookmark */ = F93511C010C96F7A003EB679 /* PlistBookmark */;
+			F93511C110C96F7A003EB679 /* PBXTextBookmark */ = F93511C110C96F7A003EB679 /* PBXTextBookmark */;
+			F93511C210C96F7A003EB679 /* PBXTextBookmark */ = F93511C210C96F7A003EB679 /* PBXTextBookmark */;
+			F93511C310C96F7A003EB679 /* PBXTextBookmark */ = F93511C310C96F7A003EB679 /* PBXTextBookmark */;
+			F93511CC10C96FC1003EB679 /* PBXTextBookmark */ = F93511CC10C96FC1003EB679 /* PBXTextBookmark */;
+			F93511CF10C96FD1003EB679 /* PBXTextBookmark */ = F93511CF10C96FD1003EB679 /* PBXTextBookmark */;
+			F93511D110C98000003EB679 /* PBXTextBookmark */ = F93511D110C98000003EB679 /* PBXTextBookmark */;
+			F93511D210C98000003EB679 /* PBXTextBookmark */ = F93511D210C98000003EB679 /* PBXTextBookmark */;
+		};
 		sourceControlManager = F93510AB10C917F9003EB679 /* Source Control */;
 		userBuildSettings = {
 		};
@@ -49,6 +59,13 @@
 	};
 	4D1A51A510A4FF640046A98A /* Embed */ = {
 		activeExec = 0;
+	};
+	4DE339F60D74FCDD00ADB6EE /* rb_main.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 286}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 513}";
+		};
 	};
 	8D1107260486CEB800E47090 /* ChrUpd */ = {
 		activeExec = 0;
@@ -72,6 +89,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -79,6 +97,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = ChrUpd;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
@@ -96,5 +116,93 @@
 	F93510AC10C917F9003EB679 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	F93510AD10C91943003EB679 /* Controller.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 624}}";
+			sepNavSelRange = "{324, 0}";
+			sepNavVisRange = "{381, 871}";
+		};
+	};
+	F93511C010C96F7A003EB679 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/julien/Documents/Code/ChrUpd/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F93511C110C96F7A003EB679 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */;
+		name = "rb_main.rb: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 513;
+		vrLoc = 0;
+	};
+	F93511C210C96F7A003EB679 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F93510AD10C91943003EB679 /* Controller.rb */;
+		name = "Controller.rb: 33";
+		rLen = 0;
+		rLoc = 978;
+		rType = 0;
+		vrLen = 950;
+		vrLoc = 180;
+	};
+	F93511C310C96F7A003EB679 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F93510AD10C91943003EB679 /* Controller.rb */;
+		name = "Controller.rb: 24";
+		rLen = 0;
+		rLoc = 570;
+		rType = 0;
+		vrLen = 1047;
+		vrLoc = 180;
+	};
+	F93511CC10C96FC1003EB679 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F93510AD10C91943003EB679 /* Controller.rb */;
+		name = "Controller.rb: 24";
+		rLen = 0;
+		rLoc = 570;
+		rType = 0;
+		vrLen = 1047;
+		vrLoc = 180;
+	};
+	F93511CF10C96FD1003EB679 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F93510AD10C91943003EB679 /* Controller.rb */;
+		name = "Controller.rb: 24";
+		rLen = 0;
+		rLoc = 570;
+		rType = 0;
+		vrLen = 1038;
+		vrLoc = 180;
+	};
+	F93511D110C98000003EB679 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F93510AD10C91943003EB679 /* Controller.rb */;
+		name = "Controller.rb: 24";
+		rLen = 0;
+		rLoc = 570;
+		rType = 0;
+		vrLen = 1047;
+		vrLoc = 180;
+	};
+	F93511D210C98000003EB679 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F93510AD10C91943003EB679 /* Controller.rb */;
+		name = "Controller.rb: 16";
+		rLen = 0;
+		rLoc = 324;
+		rType = 0;
+		vrLen = 871;
+		vrLoc = 381;
 	};
 }
