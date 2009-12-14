@@ -9,6 +9,8 @@ require 'net/http'
 class Controller
 	attr_writer :text_view
 	attr_accessor :progress
+	attr_writer :run_b
+	attr_writer :window
 	
 	def awakeFromNib()
 		@text_view.insertText("Click the Update button to update Chromium.\n")
@@ -21,6 +23,7 @@ class Controller
 		Net::HTTP.start(@build_url) { |http|
 			@latest = http.get("/buildbot/snapshots/chromium-rel-mac/LATEST")
   	}
+		updateChromium(nil)
 	end
 	
 	def updateChromium(sender)
@@ -34,6 +37,7 @@ class Controller
 		system("cd /Users/#{@whoami} && unzip -qq chrome-mac.zip && cd chrome-mac && cp -fR Chromium.app /Applications && cd .. && rm -rf chrome*")
 		
 		@progress.stopAnimation(nil)
+		@run_b.setTitle('Restart Chromium')
 	end
 	
 	def runChromium(sender)
@@ -43,4 +47,6 @@ class Controller
 	
 end
 
+#Controller.new.delegate = self
+#Controller.run
 
