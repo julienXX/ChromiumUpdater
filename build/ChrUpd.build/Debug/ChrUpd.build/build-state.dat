@@ -1,197 +1,0 @@
-TChrUpd
-v7
-r0
-t282484348.584032
-cCheck dependencies
-cProcessInfoPlistFile /Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/Info.plist Info.plist
-cStripNIB /Users/julien/Documents/Code/ChrUpd/English.lproj/MainMenu.nib
-cCopyStringsFile /Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCpResource build/Debug/ChrUpd.app/Contents/Resources/rb_main.rb rb_main.rb
-cCpResource build/Debug/ChrUpd.app/Contents/Resources/Controller.rb Controller.rb
-cCompileC build/ChrUpd.build/Debug/ChrUpd.build/Objects-normal/x86_64/main.o /Users/julien/Documents/Code/ChrUpd/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/MacOS/ChrUpd normal x86_64
-cTouch /Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app
-
-N/Developer/SDKs/MacOSX10.5.sdk
-c000000004AB44D2500000000000000EE
-t1253330213
-s238
-
-N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/MacRuby.framework/Headers/MacRuby.h
-c000000004AC6A232000000000000005F
-t1254531634
-s95
-
-N/Library/Frameworks/MacRuby.framework/MacRuby
-c000000004B1263410000000001C77690
-t1259496257
-s29849232
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004A1F2D63000000000000A5E0
-t1243557219
-s42464
-
-N/Users/julien/Documents/Code/ChrUpd/Controller.rb
-c000000004B2626FA0000000000000565
-t1260791546
-s1381
-
-N/Users/julien/Documents/Code/ChrUpd/English.lproj/InfoPlist.strings
-c000000004B18E06400000000000000C0
-t1259921508
-s192
-
-N/Users/julien/Documents/Code/ChrUpd/English.lproj/MainMenu.nib
-c000000004B212AAD0000000000000088
-t1260464813
-s136
-
-N/Users/julien/Documents/Code/ChrUpd/build/ChrUpd.build/Debug/ChrUpd.build/Objects-normal/x86_64/ChrUpd.LinkFileList
-c000000004B18E6210000000000000067
-t1259922977
-s103
-
-N/Users/julien/Documents/Code/ChrUpd/build/ChrUpd.build/Debug/ChrUpd.build/Objects-normal/x86_64/main.o
-t1259922980
-s11568
-
-N/Users/julien/Documents/Code/ChrUpd/build/ChrUpd.build/Debug/ChrUpd.build/StaticAnalyzer/normal/x86_64/main.plist
-t1259927729
-s275
-
-N/Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app
-t1260791548
-s102
-
-N/Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/Info.plist
-t1259948192
-s766
-
-N/Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/MacOS/ChrUpd
-t1259948193
-s10120
-
-N/Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/PkgInfo
-t1259948192
-s8
-
-N/Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/Resources/Controller.rb
-t1260791548
-s1381
-
-N/Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1259948192
-s192
-
-N/Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/Resources/English.lproj/MainMenu.nib
-t1260464818
-s15186
-
-N/Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/Resources/rb_main.rb
-t1259948192
-s570
-
-N/Users/julien/Documents/Code/ChrUpd/main.m
-c000000004B18E06400000000000000F8
-t1259921508
-s248
-i<MacRuby/MacRuby.h>
-
-N/Users/julien/Documents/Code/ChrUpd/rb_main.rb
-c000000004B18E064000000000000023A
-t1259921508
-s570
-
-NInfo.plist
-c000000004B18E0640000000000000343
-t1259921508
-s835
-
-CAnalyze /Users/julien/Documents/Code/ChrUpd/main.m
-s281620526.461417
-e281620529.786346
-r1
-xAnalyze
-x/Users/julien/Documents/Code/ChrUpd/main.m
-lSLF07#2@50"Analyze /Users/julien/Documents/Code/ChrUpd/main.m281620526#281620529#0(0"0(0#0#42"/Users/julien/Documents/Code/ChrUpd/main.m4300885448#991"    cd /Users/julien/Documents/Code/ChrUpd    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/julien/Documents/Code/ChrUpd/build/ChrUpd.build/Debug/ChrUpd.build/ChrUpd.hmap -F/Users/julien/Documents/Code/ChrUpd/build/Debug -F/Users/julien/Documents/Code/ChrUpd/build/Debug -I/Users/julien/Documents/Code/ChrUpd/build/Debug/include -I/Users/julien/Documents/Code/ChrUpd/build/ChrUpd.build/Debug/ChrUpd.build/DerivedSources/x86_64 -I/Users/julien/Documents/Code/ChrUpd/build/ChrUpd.build/Debug/ChrUpd.build/DerivedSources --analyze /Users/julien/Documents/Code/ChrUpd/main.m -o /Users/julien/Documents/Code/ChrUpd/build/ChrUpd.build/Debug/ChrUpd.build/StaticAnalyzer/normal/x86_64/main.plist0#
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies282484348#282484348#0(0"0(0#1#0"7947009927035180032#0"0#
-
-CCompileC build/ChrUpd.build/Debug/ChrUpd.build/Objects-normal/x86_64/main.o /Users/julien/Documents/Code/ChrUpd/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s281615778.409945
-e281615780.568131
-r1
-xCompileC
-xbuild/ChrUpd.build/Debug/ChrUpd.build/Objects-normal/x86_64/main.o
-x/Users/julien/Documents/Code/ChrUpd/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@50"Compile /Users/julien/Documents/Code/ChrUpd/main.m281615778#281615780#0(0"0(0#0#42"/Users/julien/Documents/Code/ChrUpd/main.m4300885448#937"    cd /Users/julien/Documents/Code/ChrUpd    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/julien/Documents/Code/ChrUpd/build/ChrUpd.build/Debug/ChrUpd.build/ChrUpd.hmap -F/Users/julien/Documents/Code/ChrUpd/build/Debug -F/Users/julien/Documents/Code/ChrUpd/build/Debug -I/Users/julien/Documents/Code/ChrUpd/build/Debug/include -I/Users/julien/Documents/Code/ChrUpd/build/ChrUpd.build/Debug/ChrUpd.build/DerivedSources/x86_64 -I/Users/julien/Documents/Code/ChrUpd/build/ChrUpd.build/Debug/ChrUpd.build/DerivedSources -c /Users/julien/Documents/Code/ChrUpd/main.m -o /Users/julien/Documents/Code/ChrUpd/build/ChrUpd.build/Debug/ChrUpd.build/Objects-normal/x86_64/main.o0#
-
-CCopyStringsFile /Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s281640992.179285
-e281640992.650076
-r1
-xCopyStringsFile
-x/Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings281640992#281640992#0(0"0(0#0#67"/Users/julien/Documents/Code/ChrUpd/English.lproj/InfoPlist.strings4300885448#359"    cd /Users/julien/Documents/Code/ChrUpd    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/Resources/English.lproj0#
-
-CCpResource build/Debug/ChrUpd.app/Contents/Resources/Controller.rb Controller.rb
-s282484348.511560
-e282484348.555797
-r1
-xCpResource
-xbuild/Debug/ChrUpd.app/Contents/Resources/Controller.rb
-xController.rb
-lSLF07#2@18"Copy Controller.rb282484348#282484348#0(0"0(0#0#49"/Users/julien/Documents/Code/ChrUpd/Controller.rb31525678434287664#319"    cd /Users/julien/Documents/Code/ChrUpd    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/julien/Documents/Code/ChrUpd/Controller.rb /Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/Resources0#
-
-CCpResource build/Debug/ChrUpd.app/Contents/Resources/rb_main.rb rb_main.rb
-s281640992.650200
-e281640992.659730
-r1
-xCpResource
-xbuild/Debug/ChrUpd.app/Contents/Resources/rb_main.rb
-xrb_main.rb
-lSLF07#2@15"Copy rb_main.rb281640992#281640992#0(0"0(0#0#46"/Users/julien/Documents/Code/ChrUpd/rb_main.rb4300885448#316"    cd /Users/julien/Documents/Code/ChrUpd    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/julien/Documents/Code/ChrUpd/rb_main.rb /Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/Resources0#
-
-CLd /Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/MacOS/ChrUpd normal x86_64
-s281640993.128175
-e281640993.498368
-r1
-xLd
-x/Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/MacOS/ChrUpd
-xnormal
-xx86_64
-lSLF07#2@85"Link /Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/MacOS/ChrUpd281640993#281640993#0(0"0(0#0#0"4300885448#591"    cd /Users/julien/Documents/Code/ChrUpd    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/julien/Documents/Code/ChrUpd/build/Debug -F/Users/julien/Documents/Code/ChrUpd/build/Debug -F/Users/julien/Documents/Code/ChrUpd/build/Debug -filelist /Users/julien/Documents/Code/ChrUpd/build/ChrUpd.build/Debug/ChrUpd.build/Objects-normal/x86_64/ChrUpd.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework MacRuby -o /Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/MacOS/ChrUpd0#
-
-CProcessInfoPlistFile /Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/Info.plist Info.plist
-s281640992.146775
-e281640992.177104
-r1
-xProcessInfoPlistFile
-x/Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/Info.plist
-xInfo.plist
-lSLF07#2@18"Process Info.plist281640992#281640992#0(0"0(0#0#46"/Users/julien/Documents/Code/ChrUpd/Info.plist4300885448#291"    cd /Users/julien/Documents/Code/ChrUpd    builtin-infoPlistUtility Info.plist -genpkginfo /Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/Info.plist0#
-
-CStripNIB /Users/julien/Documents/Code/ChrUpd/English.lproj/MainMenu.nib
-s282157618.445875
-e282157618.568624
-r1
-xStripNIB
-x/Users/julien/Documents/Code/ChrUpd/English.lproj/MainMenu.nib
-lSLF07#2@35"StripNIB English.lproj/MainMenu.nib282157618#282157618#0(0"0(0#0#62"/Users/julien/Documents/Code/ChrUpd/English.lproj/MainMenu.nib4300885448#285"    cd /Users/julien/Documents/Code/ChrUpd    /Developer/usr/bin/ibtool --strip /Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Users/julien/Documents/Code/ChrUpd/English.lproj/MainMenu.nib0#
-
-CTouch /Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app
-s282484348.556075
-e282484348.583955
-r1
-xTouch
-x/Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app
-lSLF07#2@64"Touch /Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app282484348#282484348#0(0"0(0#0#0"4300885448#124"    cd /Users/julien/Documents/Code/ChrUpd    /usr/bin/touch -c /Users/julien/Documents/Code/ChrUpd/build/Debug/ChrUpd.app0#
-
