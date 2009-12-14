@@ -1,0 +1,6 @@
+h1. ChromiumUpdater
+
+This is an updater for Chromium written with MacRuby. It updates your Chromium installation to the latest build.
+Chromium is the Open Source project behind Google Chrome browser (see http://code.google.com/intl/fr/chromium/).
+
+There are many improvements to come. Stay tuned!
