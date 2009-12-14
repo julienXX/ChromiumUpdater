@@ -23,7 +23,6 @@ class Controller
 		Net::HTTP.start(@build_url) { |http|
 			@latest = http.get("/buildbot/snapshots/chromium-rel-mac/LATEST")
   	}
-		updateChromium(nil)
 	end
 	
 	def updateChromium(sender)
