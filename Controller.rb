@@ -22,14 +22,14 @@ class Controller
 		# Get latest release number
 		Net::HTTP.start(@build_url) { |http|
 			@latest = http.get("/buildbot/snapshots/chromium-rel-mac/LATEST")
-  	}
+		}
 	end
 	
 	def updateChromium(sender)
 		@progress.startAnimation(nil)
 		
 		# Download latest chromium
-		system("wget http://#{@build_url}/buildbot/snapshots/chromium-rel-mac/#{@latest.body}/chrome-mac.zip -O /Users/#{@whoami}/chrome-mac.zip")
+		system("curl http://#{@build_url}/buildbot/snapshots/chromium-rel-mac/#{@latest.body}/chrome-mac.zip -o /Users/#{@whoami}/chrome-mac.zip")
 		@text_view.insertText("\nSuccesfully updated Chromium to revision #{@latest.body}, you can run it by clicking Run Chromium.\n")
 		
 		# Unzip and copy and remove temp files
